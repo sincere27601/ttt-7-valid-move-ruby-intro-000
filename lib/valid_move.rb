@@ -2,7 +2,7 @@
 def valid_move? (board,index)
 if board[index] == "x" || board[index] == "O" ||
    false
-elsif board[index] == " "  
+elsif board[index] == " "
    true
  
 end
