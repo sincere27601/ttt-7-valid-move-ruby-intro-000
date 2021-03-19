@@ -1,8 +1,8 @@
 # code your #valid_move? method here
 def valid_move? (board,index)
-if board[index] == "" || board[index] == " " || board[index] == nil
+if board[index] == "x" || board[index] == "O" || 
    false
-elsif board[index] == "X" || board[index] == "O"
+elsif board[index] == " " || 
    true
  else
    nil
